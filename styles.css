@@ -1,2 +1,30 @@
-
 /* Your CSS Code here. */
+body {
+	background-color: lightgray;
+}
+
+.holder {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.box1 {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+}
+.box2 {
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+}
+.box3 {
+	background-color: green;
+	height: 200px;
+	width: 200px;
+}
+p {
+	text-align: center;
+	padding-top: 35%;
+}
